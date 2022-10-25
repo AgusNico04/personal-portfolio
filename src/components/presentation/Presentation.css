@@ -1,0 +1,49 @@
+#presentation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#presentation-title {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#presentation-title > p {
+    font-size: large;
+}
+
+#presentation-div {
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+#presentation-img {
+    width: auto;
+    height: 100%;
+    margin-left: -118px;
+}
+
+#presentation-description {
+    margin-top: 20px;
+    padding: 10px;
+    width: 50%;
+    border-radius: 10px;
+    background-color: var(--color-light);
+    backdrop-filter: blur(1px);
+    transition: ease-in .2s;
+}
+
+#presentation-description:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(2px);
+}
+
+@media screen and (max-width: 500px) {
+    #presentation-description {
+        width: 80%;
+    }
+}

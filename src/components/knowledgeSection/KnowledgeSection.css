@@ -1,0 +1,44 @@
+#knowledge {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#knowledge-title {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#knowledge-title > p {
+    font-size: large;
+}
+
+#knowledge-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    margin-top: 20px;
+    width: 50%;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.123);
+    backdrop-filter: blur(1px);
+    transition: ease-in .2s;
+}
+
+#knowledge-list:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(2px);
+}
+
+#knowledge-list > ul > li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width: 500px) {
+    #knowledge-list {
+        width: 80%;
+    }
+}
