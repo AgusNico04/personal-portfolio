@@ -37,8 +37,27 @@
     align-items: center;
 }
 
+@media screen and (max-width: 850px) {
+    #knowledge-list {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    #knowledge-list {
+        width: 70%;
+    }
+}
+
 @media screen and (max-width: 500px) {
     #knowledge-list {
         width: 80%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #knowledge-list {
+        border-radius: 0;
+        width: 100%;
     }
 }

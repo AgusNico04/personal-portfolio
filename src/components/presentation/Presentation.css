@@ -42,8 +42,27 @@
     backdrop-filter: blur(2px);
 }
 
+@media screen and (max-width: 850px) {
+    #presentation-description {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    #presentation-description {
+        width: 70%;
+    }
+}
+
 @media screen and (max-width: 500px) {
     #presentation-description {
         width: 80%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #presentation-description {
+        border-radius: 0;
+        width: 100%;
     }
 }

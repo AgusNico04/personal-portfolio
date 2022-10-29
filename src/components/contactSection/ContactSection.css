@@ -64,3 +64,28 @@
     background-color: var(--color-light);
     backdrop-filter: blur(0.5px);
 }
+
+@media screen and (max-width: 850px) {
+    #contact-email {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    #contact-email {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #contact-email {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #contact-email {
+        border-radius: 0;
+        width: 100%;
+    }
+}

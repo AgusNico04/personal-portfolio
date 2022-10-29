@@ -35,9 +35,9 @@
     align-items: center;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 850px) {
     #projects-list {
-        width: 80%;
+        width: 60%;
     }
 
     #projects-list > ul {
@@ -45,8 +45,21 @@
     }
 }
 
-@media screen and (max-width: 800px) {
-    #projects-list > ul {
-        flex-direction: column;
+@media screen and (max-width: 720px) {
+    #projects-list {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #projects-list {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #projects-list {
+        border-radius: 0;
+        width: 100%;
     }
 }

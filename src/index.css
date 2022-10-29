@@ -27,6 +27,11 @@ html {
   display: none;
 }
 
+input:-webkit-autofill {
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
 body {
   font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
