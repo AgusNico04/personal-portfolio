@@ -16,6 +16,7 @@
 #presentation-div {
     margin-top: 20px;
     width: 200px;
+    max-width: 1200px;
     height: 200px;
     border-radius: 50%;
     overflow: hidden;
@@ -64,5 +65,9 @@
     #presentation-description {
         border-radius: 0;
         width: 100%;
+    }
+
+    #presentation-title > p {
+        font-size: medium;
     }
 }

@@ -17,6 +17,7 @@
     margin-top: 20px;
     padding: 10px;
     width: 50%;
+    max-width: 1200px;
     border-radius: 10px;
     background-color: var(--color-light);
     backdrop-filter: blur(1px);
@@ -61,5 +62,9 @@
     #projects-list {
         border-radius: 0;
         width: 100%;
+    }
+
+    #projects-title > p {
+        font-size: medium;
     }
 }

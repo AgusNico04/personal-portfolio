@@ -16,3 +16,14 @@ footer:hover {
     background-color: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(2px);
 }
+
+footer > ul > li > p {
+    text-align: center;
+    font-size: large;
+}
+
+@media screen and (max-width: 400px) {
+    footer > ul > li > p {
+        font-size: medium;
+    }
+}

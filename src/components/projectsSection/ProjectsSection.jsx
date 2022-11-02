@@ -7,7 +7,7 @@ export default function ProjectsSection() {
             <div id="projects-title">
                 <p>Projects</p>
             </div>
-            <div id="projects-list">
+            <div id='projects-list'>
                 <ul>
                     <li>Project 1</li>
                     <li>Project 2</li>

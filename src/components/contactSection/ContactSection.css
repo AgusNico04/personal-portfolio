@@ -17,6 +17,7 @@
     margin-top: 20px;
     padding: 10px;
     width: 50%;
+    max-width: 1200px;
     border-radius: 10px;
     background-color: var(--color-light);
     backdrop-filter: blur(1px);
@@ -63,6 +64,11 @@
     margin-top: 10px;
     background-color: var(--color-light);
     backdrop-filter: blur(0.5px);
+    transition: ease-in-out .3s;
+}
+
+#contact-email > form > button:hover {
+    background-color: rgba(83, 226, 236, 0.425);
 }
 
 @media screen and (max-width: 850px) {
@@ -87,5 +93,9 @@
     #contact-email {
         border-radius: 0;
         width: 100%;
+    }
+
+    #contact-title > p {
+        font-size: medium;
     }
 }

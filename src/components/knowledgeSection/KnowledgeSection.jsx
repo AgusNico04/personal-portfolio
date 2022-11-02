@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import javascriptLogo from '../../assets/knowledgesSection/js.png';
 import typescriptLogo from '../../assets/knowledgesSection/ts.png';
 import htmlLogo from '../../assets/knowledgesSection/html5.png';
