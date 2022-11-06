@@ -66,3 +66,13 @@
         font-size: medium;
     }
 }
+
+@media screen and (max-width: 250px) {
+    #knowledge-list {
+        flex-direction: column;
+    }
+
+    #knowledge-list > ul > li > img{
+        display: none;
+    }
+}
