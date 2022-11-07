@@ -17,7 +17,7 @@ export default function ProjectsSection() {
                     <li><p>Login with NodeJS</p><img src={loginProject} alt='Login with nodejs project' width={90} height={90}/><a href='https://login-node-production.up.railway.app/' target='_blank' rel='noreferrer noopener'>Visit App</a></li>
                     <li><p>CRUD with NodeJS</p><img src={crudProject} alt='CRUD project' width={90} height={90}/><a href='https://crud-production-9a93.up.railway.app/' target='_blank' rel='noreferrer noopener'>Visit App</a></li>
                     <li><p>Tic Tac Toe</p><img src={ticTacToeProject} alt='Tic Tac Toe project' width={90} height={90}/><a href='https://agusnico04.github.io/Tic-Tac-Toe' target='_blank' rel='noreferrer noopener'>Visit App</a></li>
-                    <li><p>Project 5 (In progress)</p><img src="" alt='? Project' width={90} height={90}/></li>
+                    <li><p>Project 5</p><img src="" alt='? Project' width={90} height={90}/></li>
                 </ul>
             </div>
         </section>
