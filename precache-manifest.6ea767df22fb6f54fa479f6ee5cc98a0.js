@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "8f45643d937ba5f0c248",
-    "url": "/personal-portfolio/static/css/main.f41040b8.chunk.css"
+    "revision": "ca0aa8920ad5bfbc1192",
+    "url": "/personal-portfolio/static/css/main.e1a3e2fb.chunk.css"
   },
   {
-    "revision": "8f45643d937ba5f0c248",
-    "url": "/personal-portfolio/static/js/main.8f45643d.chunk.js"
+    "revision": "ca0aa8920ad5bfbc1192",
+    "url": "/personal-portfolio/static/js/main.ca0aa892.chunk.js"
   },
   {
     "revision": "0f9bb1f0c7bbde33a8ef",
@@ -88,7 +88,7 @@ self.__precacheManifest = [
     "url": "/personal-portfolio/static/media/crud_project.ff7af554.png"
   },
   {
-    "revision": "7ccd553a51fac6fef8559dab18d26d62",
+    "revision": "ae920ceed7e70d62d6f0464b1d08cd45",
     "url": "/personal-portfolio/index.html"
   }
 ];
