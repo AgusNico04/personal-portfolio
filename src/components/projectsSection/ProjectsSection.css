@@ -31,10 +31,10 @@
 
 #projects-list > ul {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    gap: 15px;
 }
 
 #projects-list > ul > li {
@@ -44,16 +44,33 @@
 }
 
 #projects-list > ul > li > img {
+    aspect-ratio: 16 / 9;
+    width: 90%;
     border-radius: 7px;
+}
+
+.linkProjectButton {
+    display: block;
+    width: 90%;
+    color: #000000;
+    text-align: center;
+    font-size: small;
+    font-weight: normal;
+    border-radius: 7px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: var(--color-light);
+    backdrop-filter: blur(0.5px);
+    transition: ease-in-out .3s;
+}
+
+.linkProjectButton:hover, .linkProjectButton:active, .linkProjectButton:focus {
+    background-color: rgba(83, 226, 236, 0.425);
 }
 
 @media screen and (max-width: 850px) {
     #projects-list {
         width: 60%;
-    }
-
-    #projects-list > ul {
-        flex-direction: column;
     }
 }
 

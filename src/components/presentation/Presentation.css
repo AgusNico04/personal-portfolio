@@ -29,6 +29,8 @@
 }
 
 #presentation-description {
+    display: flex;
+    flex-direction: column;
     margin-top: 20px;
     padding: 10px;
     width: 50%;
@@ -41,6 +43,25 @@
 #presentation-description:hover {
     background-color: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(2px);
+}
+
+#presentation-description > a {
+    width: 30%;
+    align-self: center;
+    color: #000000;
+    text-align: center;
+    font-size: small;
+    font-weight: normal;
+    border-radius: 7px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: var(--color-light);
+    backdrop-filter: blur(0.5px);
+    transition: ease-in-out .3s;
+}
+
+#presentation-description > a:hover, #presentation-description > a:active, #presentation-description > a:focus {
+    background-color: rgba(83, 226, 236, 0.425);
 }
 
 @media screen and (max-width: 850px) {

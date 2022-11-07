@@ -13,11 +13,11 @@ export default function ProjectsSection() {
             </div>
             <div id='projects-list'>
                 <ul>
-                    <li><p>Real Time Chat</p><img src={chatProject} alt='Real time chat project' width={90} height={90}/><a href='https://real-time-chat-04.herokuapp.com' target='_blank' rel='noreferrer noopener'>Visit App</a></li>
-                    <li><p>Login with NodeJS</p><img src={loginProject} alt='Login with nodejs project' width={90} height={90}/><a href='https://login-node-production.up.railway.app/' target='_blank' rel='noreferrer noopener'>Visit App</a></li>
-                    <li><p>CRUD with NodeJS</p><img src={crudProject} alt='CRUD project' width={90} height={90}/><a href='https://crud-production-9a93.up.railway.app/' target='_blank' rel='noreferrer noopener'>Visit App</a></li>
-                    <li><p>Tic Tac Toe</p><img src={ticTacToeProject} alt='Tic Tac Toe project' width={90} height={90}/><a href='https://agusnico04.github.io/Tic-Tac-Toe' target='_blank' rel='noreferrer noopener'>Visit App</a></li>
-                    <li><p>Project 5</p><img src="" alt='? Project' width={90} height={90}/></li>
+                    <li><p>Real Time Chat</p><img src={chatProject} alt='Real time chat project'/><a href='https://real-time-chat-04.herokuapp.com' target='_blank' rel='noreferrer noopener' className='linkProjectButton'>Visit App</a></li>
+                    <li><p>Login with NodeJS</p><img src={loginProject} alt='Login with nodejs project'/><a href='https://login-node-production.up.railway.app/' target='_blank' rel='noreferrer noopener' className='linkProjectButton'>Visit App</a></li>
+                    <li><p>CRUD with NodeJS</p><img src={crudProject} alt='CRUD project'/><a href='https://crud-production-9a93.up.railway.app/' target='_blank' rel='noreferrer noopener' className='linkProjectButton'>Visit App</a></li>
+                    <li><p>Tic Tac Toe</p><img src={ticTacToeProject} alt='Tic Tac Toe project'/><a href='https://agusnico04.github.io/Tic-Tac-Toe' target='_blank' rel='noreferrer noopener' className='linkProjectButton'>Visit App</a></li>
+                    <li><p>Project 5</p><img src="" alt='Not yet'/></li>
                 </ul>
             </div>
         </section>

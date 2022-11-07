@@ -51,7 +51,7 @@
     padding: 7px;
     border-radius: 5px;
     width: 95%;
-    height: 100px;
+    height: 150px;
     resize: none;
     background-color: var(--color-light);
     backdrop-filter: blur(0.5px);
@@ -67,7 +67,7 @@
     transition: ease-in-out .3s;
 }
 
-#contact-email > form > button:hover {
+#contact-email > form > button:hover, #contact-email > form > button:focus {
     background-color: rgba(83, 226, 236, 0.425);
 }
 

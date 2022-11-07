@@ -1,4 +1,5 @@
 import React from 'react';
+import curriculum from '../../assets/presentation/curriculum.pdf';
 import './Presentation.css';
 
 export default function Presentation() {
@@ -16,6 +17,7 @@ export default function Presentation() {
                     est rem qui voluptatum magni natus dolore 
                     ipsum consectetur officiis mollitia odio. Molestiae!
                 </p>
+                <a download='Curriculum' href={curriculum}>Download CV</a>
             </div>
         </section>
     );
