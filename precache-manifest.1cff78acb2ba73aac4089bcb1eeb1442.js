@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "ca0aa8920ad5bfbc1192",
-    "url": "/personal-portfolio/static/css/main.e1a3e2fb.chunk.css"
+    "revision": "56ed0bb6844cc8944dc9",
+    "url": "/personal-portfolio/static/css/main.b8166e9d.chunk.css"
   },
   {
-    "revision": "ca0aa8920ad5bfbc1192",
-    "url": "/personal-portfolio/static/js/main.ca0aa892.chunk.js"
+    "revision": "56ed0bb6844cc8944dc9",
+    "url": "/personal-portfolio/static/js/main.56ed0bb6.chunk.js"
   },
   {
     "revision": "0f9bb1f0c7bbde33a8ef",
@@ -22,6 +22,10 @@ self.__precacheManifest = [
   {
     "revision": "03804760cb2b8ab1a65d889ccd8bf90b",
     "url": "/personal-portfolio/static/media/projects.03804760.png"
+  },
+  {
+    "revision": "d41d8cd98f00b204e9800998ecf8427e",
+    "url": "/personal-portfolio/static/media/curriculum.d41d8cd9.pdf"
   },
   {
     "revision": "63cf9c6f8153aef1e884b7ae2815e06d",
@@ -76,8 +80,8 @@ self.__precacheManifest = [
     "url": "/personal-portfolio/static/media/real_time_chat.c5e01408.png"
   },
   {
-    "revision": "e54eda3da988938983c95b6fc919bd55",
-    "url": "/personal-portfolio/static/media/login_node.e54eda3d.png"
+    "revision": "f03ce1e36fc563a5f8bf70887ed1ad10",
+    "url": "/personal-portfolio/static/media/login_node.f03ce1e3.png"
   },
   {
     "revision": "b7633ed1187c40b9805d731e28711fe1",
@@ -88,7 +92,7 @@ self.__precacheManifest = [
     "url": "/personal-portfolio/static/media/crud_project.ff7af554.png"
   },
   {
-    "revision": "ae920ceed7e70d62d6f0464b1d08cd45",
+    "revision": "699bf0b460f4f657fca60bc72b042df8",
     "url": "/personal-portfolio/index.html"
   }
 ];
